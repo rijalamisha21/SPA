@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(../image/background_img.jpg);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: white;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+section {
+  width: 40%;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #FCF8E8;
+  border-radius: 0.2rem;
+}
+section .wrap_button {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 0px 1rem;
+  width: 20%;
+  font-size: 15px;
+  background-color: #2f0374;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #3d1183;
+}
+
+input {
+  font-size: 15px;
+  padding: 0.8rem;
+  width: 85%;
+  margin: 0.6rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #f5f6f7;
+  outline: none;
+}
+
+.submit_button {
+  font-size: 16px;
+  margin: 1rem 8rem;
+  color: white;
+  background-color: #2f0374;
+  width: 50%;
+}
+.submit_button:hover {
+  cursor: pointer;
+  background-color: #3d1183;
+}
+
+.fullwidth_input {
+  width: 89%;
+}
+
+.wrap_gender {
+  display: flex;
+  margin: 1rem;
+}
+.wrap_gender > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-align: center;
+}
+
+p {
+  font-size: 11px;
+  color: red;
+  margin-left: 1rem;
+}
+
+.wrap_name {
+  display: flex;
+}
+.wrap_name .name {
+  width: 77%;
+}/*# sourceMappingURL=main.css.map */
